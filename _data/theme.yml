@@ -1,5 +1,5 @@
 # Theme Skin
-skin: default # default, night, plum, sea, soft, steel
+skin: sea # default, night, plum, sea, soft, steel
 
 # Theme Text
 t:
@@ -21,7 +21,7 @@ t:
   posts: "Posts"
   page: "Page"
   of: "of"
-  min_read: "min read"
+  min_read: "minute read"
   present: "Present"
 
 # Google Fonts

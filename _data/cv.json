@@ -1,0 +1,251 @@
+{
+  "basics": {
+    "name": "Scott Simontis",
+    "label": "Versatile cross-platform backend developer",
+    "picture": "",
+    "email": "yo@scottsimontis.io",
+    "phone": "+1(470) 279-1230",
+    "website": "https://blog.scottsimontis.io/",
+    "summary": "Well-rounded backend developer with a background in .NET and a recent focus on cloud technologies and DevOps.",
+    "location": {
+      "address": "116 Ponce de Leon Ave NE # 2216",
+      "postalCode": "30308",
+      "city": "Atlanta",
+      "countryCode": "US",
+      "region": "Georgia"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ssimontis",
+        "url": "https://github.com/ssimontis"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ScottSimontis",
+        "url": "https://www.linkedin.com/in/scottsimontis/"
+      },
+      {
+        "network": "Dev.TO",
+        "username": "ssimontis",
+        "url": "https://dev.to/ssimontis"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "ssimontis",
+        "url": "https://stackoverflow.com/story/ssimontis"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "SoftTech",
+      "position": ".NET Developer",
+      "website": "https://softtech.com/",
+      "location": "Norcross, GA",
+      "startDate": "September 2019",
+      "endDate": "November 2019",
+      "summary": "Worked on site at one of our largest client's facilities to promote more effective communication between development teams, gather requirements from client developers and project advocates and deploy code to secured on-prem environments.",
+      "highlights": [
+        "Wrote Puppet roles and PowerShell scripts to set up client's test environment and automate setup of additional internal test machines.",
+        "Wrote ASP.NET Web API 2 REST endpoints that met requirements gathered from client and refactored existing codebase to increase Entity Framework performance and standardize business rule enforcement and validation.",
+        "Assisted client with solving issues related to Oracle databases and gathered information on reported bugs to provide a root cause analysis so that a long-term fix could be implemented."
+      ],
+      "buzzwords": [ "C#", "ASP.NET MVC", "REST", "ASP.NET Web API", "SpecFlow", "Entity Framework", "Puppet", "Puppet Bolt", "Powershell", "Powershell DSC", "Powershell Core", "Oracle 11g Database", "SQL Server", "T-SQL", "PL-SQL", "ReactJS",
+        "Requirements Gathering", "Technical writing", "Git", "Azure DevOps", "Microsoft IIS", "ReactJS", "VBA", "Javascript", "SOLR"]
+    },
+    {
+      "company": "Independent",
+      "position": "Software Systems Engineering Consultant",
+      "website": "https://scottsimontis.io",
+      "location": "Atlanta, GA",
+      "startDate": "April 2019",
+      "endDate": "September 2019",
+      "summary": "Marketed my architecture and systems design skills successfully, resulting in several digital transformation engagements that allowed me to gain more experience with DevOps, full-stack web design, and information security.",
+      "highlights": [
+        "Led an infrastructure transformation for an online retailer relying upon an OpenCart deployment for $1M+ in yearly revenue by hardening Linux environments, optimizing Nginx server configurations, identifying specifications for new servers and selecting optimal locations for server colocation.",
+        "Performed code reviews, documented data flows & application topology and presented security & operational concerns to executive management while acting as enterprise architect for a client seeking to bring all development operations in-house. Added Multi-Factor Authentication to ASP.NET MVC backend application hosted in Azure and wrote JavaScript to update login UI flow.",
+        "Developed MVP for a social network geared towards primary education faculty that incorporated grading and attendance tracking. Created prototype User Interface using VueJS, SCSS and Stencil web components. Designed relational schema for application and deployed data model to PostgreSQL 11 development servers."
+      ],
+      "buzzwords": [ "C", "ASP.NET MVC", "REST", "ASP.NET Web API", "Technical writing", "Javascript", "jQuery", "Stencil web components", "Nginx", "Linux hardening", "Linux systems administration", "PHP", "PostgreSQL", "MariaDB", "Datadog", "iptables",
+      "SSH", "Git", "Azure DevOps", "Powershell", "Powershell DSC", "Microsoft IIS", "SQL Server", "Entity Framework", "SCSS", "VueJS", "Javascript", "HTML5", "OAuth 2.0", "Azure Active Directory Graph API" ]
+    },
+    {
+      "company": "Regulatory Affairs Professionals Society",
+      "position": "Web Administrator",
+      "location": "Rockville, MD",
+      "website": "https://www.raps.org",
+      "startDate": "September 2017",
+      "endDate": "April 2019",
+      "summary": "Delivered thought leadership on the subject of CMS-based web development for a non-profit professional association by creating and enforcing company policy regarding our website, including GDPR compliance, accessibility, security, best practices for content editors and planning of future enhancements against bug fixes.",
+      "highlights": [
+        "Developed ASP.NET web parts, REST endpoints, C# services and JavaScript libraries to add new features to Kentico 10 website.",
+        "Audited site performance, resulting in 60% drop in page load time and 30% drop in bandwidth consumption.",
+        "Performed security audits on codebase to identify and remove possible vulnerabilities. Discovered vendors breaching company IT policy; ultimately leading to company leadership agreeing with recommendation to terminate relationship with vendor.",
+        "Configured a Web Application Firewall, Intrusion Detection System and Application Performance Monitoring logs to alert IT team to unusual server activity or unauthorized system access.",
+        "Guided discussions with senior leadership regarding GDPR compliance efforts and automated opt-in mandates by designing an opt-in management portal in ReactJS.",
+        "Consumed and produced REST APIs to exchange data with new AMS and marketing systems. Wrote requirements for new product additions by vendors and managed defect reporting and vulnerability disclosures to vendors to ensure a timely response.",
+        "Supervised development and integration efforts by vendors by conducting code reviews, providing detailed technical specifications and introducing Agile concepts to the development process.",
+        "Introduced Continuous Integration concepts to website build process. Automated front-end asset management with GulpJS, set up build pipeline in Azure DevOps, and began introducing XUnit.NET tests to codebase by refactoring ASP.NET Web Forms pages to comply with MVP pattern."
+      ],
+      "buzzwords": ["C#", "ASP.NET Web API", "REST", "Kentico 10", "ASP.NET Web Forms", "Javascript", "ReactJS", "SQL Server", "Lucene", "GulpJS", "SCSS", "xUnit.NET", "Azure DevOps", "Elmah.io", "Windows Server 2012 systems administration",
+      "Technical writing", "Google Analytics", "API Integrations", "PowerBI", "Higher Logic", "Content Delivery Networks", "Web Application Firewalls", "GDPR compliance", "Git", "Gitlab", "Agile Development", "security auditing",
+      "PCI compliance", "SEO", "Google AdWords", "Site Performance Engineering", "Azure DevOps Build Pipelines"]
+    },
+    {
+      "company": "Intellinet",
+      "position": "Consultant",
+      "website": "https://www.intellinet.com",
+      "location": "Atlanta, GA",
+      "startDate": "December 2013",
+      "endDate": "September 2017",
+      "summary": "Contributed heavily to firm's Content Management System project efforts by becoming internal Sitecore Knowledge Manager while growing capabilities as a .NET-focused full-stack web developer and exploring mobile application development & Business Intelligence.",
+      "highlights": [
+        "Constructed REST API integration framework to automate API interactions and simplify integration testing, allowing team to respond within a week when client removed an entire layer of their API.",
+        "Automated Sitecore builds through Gulp task runner and maintained Azure Devops CI/CD pipelines. Wrote deployment runbooks for clients and provided guidance to Operations teams during deployments.",
+        "Wrote modular, ADA-compliant front-end components using SCSS, jQuery, KnockoutJS and QUnit. Created a jQuery-based event-driven framework for internal use and oversaw multiple Adobe Analytics implementations by writing the data layer and supervising validation efforts.",
+        "Created business rules engines, actor frameworks, dynamic SSRS reports and a Lucene-based geographical search engine during ASP.NET MVC engagements.",
+        "Designed databases via Entity Framework migrations and wrote T-SQL procedures to address performance issues identified while profiling SQL Server sessions.",
+        "Released an Android application built using Xamarin to dispatch technicians to customer sites and submit proof of completed work.",
+        "Implemented C# batch process to accurately migrate financial records to Great Plains by calling a collection of T-SQL stored procedures. Extended GP functionality by authoring ASP.NET Web API endpoints to support time entry needs and automate payroll processing workflows."
+      ],
+      "buzzwords": ["C#", "Sitecore 9", "Sitecore 10", "Sitecore 11","T-SQL", "SQL Server", "SSIS", "Windows Server 2012 systems administration", "Technical writing", "Xamarin", "Akka.NET", "MSTest", "Unity IOC", "Azure DevOps", "Git", "TFS",
+      "Agile Development", "ASP.NET MVC", "ASP.NET Web API", "Azure Resource Manager templates", "Powershell", "MSBuild", "Team Development for Sitecore", "Unicorn", "Lucene", "SOLR", "ZooKeeper", "Microsoft Dynamics Great Plains",
+      "Systems integration", "SCSS", "jQuery", "ReactJS", "HTML5", "Bootstrap", "KnockoutJS", "SSRS", "Microsoft Enterprise Library", "Topshelf", "Windows Workflow Foundation", "Forms authentication", "JWT", "Azure DevOps Build Pipelines",
+      "QUnit", "Adobe Analytics", "Google Tag Manager", "REST", "Knowledge management"]
+    },
+    {
+      "company": "CFSRES Emergency Systems (defunct)",
+      "position": "Systems Engineer/Development Lead",
+      "website": "",
+      "location": "Remote",
+      "startDate": "June 2015",
+      "endDate": "May 2017",
+      "summary": "Co-founded a startup that sold text notifications as a service for volunteer firefighters currently relying on pager networks to receive incoming dispatches",
+      "highlights": [
+        "Modified an open-source Software Defined Radio application written in C to push messages into a RethinkDB instances using ZeroMQ.",
+        "Delivered ExpressJS application that streamed real-time emergency dispatches via Socket.io.",
+        "Designed PostgreSQL database to maintain subscriber info and send SMS alerts triggered by AWS queue and messaging components.",
+        "Deployed and administered AWS LightSail VPS and EC2 instances."
+      ],
+      "buzzwords": ["NodeJS", "GulpJS", "ExpressJS", "jQuery", "SCSS", "HTML5", "Socket.io, ZeroMQ, C, Software Defined Radio", "Digital Signal Processing", "AWS Lightsail", "AWS EC2", "AWS Simple Notification Service",
+      "AWS Simple Queue Service", "Linux systems administration", "Linux hardening", "Redis", "RethinkDB", "PostgreSQL"]
+    },
+    {
+      "company": "Applied Information Inc,",
+      "position": "Software Engineer",
+      "location": "Suwanee, GA",
+      "website": "https://appinfoinc.com",
+      "startDate": "May 2012",
+      "endDate": "August 2013",
+      "summary": "As one of the few US-based engineers, I conquered a dynamic workload consisting of reviewing code from overseas teams and managing joint development efforts, debugging, installing and repairing embedded devices in the lab and in the field, and performing guided research and experiments to contribute to research and development efforts",
+      "highlights": [
+        "Designed a digital billboard and wrote embedded controller software in C# and Windows 7 Embedded. Established XML subscription format and a scheduling algorithm to drive content display. Assembled hardware for units. Integrated GPS receivers, cellular modems and video input capture hardware.",
+        "Supervised an overseas team tasked with porting the advertisement scheduling system to Android, which was delivered on-time and within budget.",
+        "Provided installation, configuration, training and on-site support to city agencies purchasing our Conflict Monitor units for traffic signal controllers.",
+        "Debugged digital sign controller failures occurring on Z80 microcontrollers running MicroC RTOS.",
+        "Wrote a batch process to pull data from a SQL data warehouse and develop custom charts for dashboard systems to alert fleet owners of potential mechanical failures."
+      ]
+    },
+    {
+      "company": "Delcan Technologies",
+      "position": "Software Engineering Co-op",
+      "website": "http://delcantechnologies.com",
+      "startDate": "August 2019",
+      "endDate": "May 2011",
+      "summary": "Participated in Georgia Tech's co-op program, designed to give students real world training through an extended internship which rotated with academic courses until at least 3 semesters of work for the company were completed.",
+      "highlights": [
+        "Wrote services and Windows embedded applications in C# to certify transportation and traffic hardware adherence to the NTCIP protocol suite developed by the federal Department of Transportation.",
+        "Loaded and tested firmware on Rabbit microcontrollers during assembly process.",
+        "Assisted with deployment of hardware and systems related to Georgia Navigator, including testing of traffic cameras and verification of device configurations. Wrote a C# driver to pull traffic data from the camera units.",
+        "Implemented serial port protocols to allow Windows Embedded VB.NET applications to manage controller units on snowplow and salt-spreading trucks. Enhanced WinForms interface when new functionality was added and provided online and on-site technical support to customers.",
+        "Wrote the user interface for a touchscreen-based VB.NET WinForms application used by Georgia DOT HERO operators for dispatch operations and converted shift paperwork and incident logs into digital reports.",
+        "Wrote SSRS reports and T-SQL stored procedures to determine material usage of snowplows running our software systems to track material costs by date and location."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Steve's Meat Market",
+      "position": "Assistant",
+      "website": "",
+      "startDate": "1995-01-01",
+      "endDate": "1997-03-20",
+      "summary": "Ground up some sort of grasshopper mash for fishing.",
+      "highlights": [
+        "Awarded a 'Helium Biscuit'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ointment",
+      "area": "Digital Skillets",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Perpendicular Crosstalk",
+        "CS2011 - Introduction to Moisturization"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Warble Pioneer Award",
+      "date": "2001-11-01",
+      "awarder": "Levi Goulet",
+      "summary": "Have you seen my turtle?"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Radio Julius",
+      "publisher": "Tanyo Lubbock",
+      "releaseDate": "2014-10-01",
+      "website": "https://en.rhy.es",
+      "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Audio Juggling",
+      "level": "Master",
+      "keywords": [
+        "Ointment",
+        "Voltor",
+        "Millipedes"
+      ]
+    },
+    {
+      "name": "Bruschotti",
+      "level": "Satisfactory",
+      "keywords": [
+        "Snow camp",
+        "Owl"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Nonsense",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "The Information Superhighway",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": " Nannette Nananacci",
+      "reference": "It is my pleasure to recommend Dugan Nash, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}

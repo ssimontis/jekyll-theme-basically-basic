@@ -14,19 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Awesome Site
-email:
-description:
+title: Fragile Development
+email: yo@scottsimontis.io
+description: The adventures of a developer in search of meaning, monads, and new opportunities.
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://blog.scottsimontis.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
+  name: Scott Simontis
   twitter:
-  picture:
+  picture: assets/images/profile.png
 twitter_username:
-github_username:
+github_username: ssimontis
 logo: # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
+search: true# true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
 algolia:
@@ -43,11 +43,15 @@ plugins: # previsously gems
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - searchyll
+  - jekyll-tagging
+  - jekyll-asciidoc
+  - jekyll-seo-tag
 feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
+paginate: 7
 paginate_path: /page:num/
 
 # Exclude from processing.
