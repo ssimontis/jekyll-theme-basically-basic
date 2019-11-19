@@ -2,11 +2,16 @@
 
 source 'https://rubygems.org'
 
-  group :jekyll_plugins do
+group :jekyll_plugins do
     gem 'searchyll'
     gem 'jekyll-feed'
     gem 'jekyll-tagging'
     gem 'jekyll-asciidoc'
     gem 'jekyll-seo-tag'
-  end
-gemspec
+end
+
+group :testing do
+  gem 'rspec'
+end
+
+gem 'rake'

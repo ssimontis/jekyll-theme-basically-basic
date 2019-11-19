@@ -52,7 +52,7 @@
         "Assisted client with solving issues related to Oracle databases and gathered information on reported bugs to provide a root cause analysis so that a long-term fix could be implemented."
       ],
       "buzzwords": [ "C#", "ASP.NET MVC", "REST", "ASP.NET Web API", "SpecFlow", "Entity Framework", "Puppet", "Puppet Bolt", "Powershell", "Powershell DSC", "Powershell Core", "Oracle 11g Database", "SQL Server", "T-SQL", "PL-SQL", "ReactJS",
-        "Requirements Gathering", "Technical writing", "Git", "Azure DevOps", "Microsoft IIS", "ReactJS", "VBA", "Javascript", "SOLR"]
+        "Requirements Gathering", "Technical writing", "Git", "Azure DevOps", "Microsoft IIS", "ReactJS", "VBA", "Javascript", "SOLR", ".NET Core"]
     },
     {
       "company": "Independent",
@@ -68,7 +68,7 @@
         "Developed MVP for a social network geared towards primary education faculty that incorporated grading and attendance tracking. Created prototype User Interface using VueJS, SCSS and Stencil web components. Designed relational schema for application and deployed data model to PostgreSQL 11 development servers."
       ],
       "buzzwords": [ "C", "ASP.NET MVC", "REST", "ASP.NET Web API", "Technical writing", "Javascript", "jQuery", "Stencil web components", "Nginx", "Linux hardening", "Linux systems administration", "PHP", "PostgreSQL", "MariaDB", "Datadog", "iptables",
-      "SSH", "Git", "Azure DevOps", "Powershell", "Powershell DSC", "Microsoft IIS", "SQL Server", "Entity Framework", "SCSS", "VueJS", "Javascript", "HTML5", "OAuth 2.0", "Azure Active Directory Graph API" ]
+      "SSH", "Git", "Azure DevOps", "Powershell", "Powershell DSC", "Microsoft IIS", "SQL Server", "Entity Framework", "SCSS", "VueJS", "Javascript", "HTML5", "OAuth 2.0", "Azure Active Directory Graph API", ".NET Core" ]
     },
     {
       "company": "Regulatory Affairs Professionals Society",
@@ -109,10 +109,10 @@
         "Released an Android application built using Xamarin to dispatch technicians to customer sites and submit proof of completed work.",
         "Implemented C# batch process to accurately migrate financial records to Great Plains by calling a collection of T-SQL stored procedures. Extended GP functionality by authoring ASP.NET Web API endpoints to support time entry needs and automate payroll processing workflows."
       ],
-      "buzzwords": ["C#", "Sitecore 9", "Sitecore 10", "Sitecore 11","T-SQL", "SQL Server", "SSIS", "Windows Server 2012 systems administration", "Technical writing", "Xamarin", "Akka.NET", "MSTest", "Unity IOC", "Azure DevOps", "Git", "TFS",
+      "buzzwords": ["C#", "Sitecore 7", "Sitecore 8", "Sitecore 9", "T-SQL", "SQL Server", "SSIS", "Windows Server 2012 systems administration", "Technical writing", "Xamarin", "Akka.NET", "MSTest", "Unity IOC", "Azure DevOps", "Git", "TFS",
       "Agile Development", "ASP.NET MVC", "ASP.NET Web API", "Azure Resource Manager templates", "Powershell", "MSBuild", "Team Development for Sitecore", "Unicorn", "Lucene", "SOLR", "ZooKeeper", "Microsoft Dynamics Great Plains",
       "Systems integration", "SCSS", "jQuery", "ReactJS", "HTML5", "Bootstrap", "KnockoutJS", "SSRS", "Microsoft Enterprise Library", "Topshelf", "Windows Workflow Foundation", "Forms authentication", "JWT", "Azure DevOps Build Pipelines",
-      "QUnit", "Adobe Analytics", "Google Tag Manager", "REST", "Knowledge management"]
+      "QUnit", "Adobe Analytics", "Google Tag Manager", "REST", "Knowledge management", "Asynchronous programming"]
     },
     {
       "company": "CFSRES Emergency Systems (defunct)",
@@ -145,12 +145,16 @@
         "Provided installation, configuration, training and on-site support to city agencies purchasing our Conflict Monitor units for traffic signal controllers.",
         "Debugged digital sign controller failures occurring on Z80 microcontrollers running MicroC RTOS.",
         "Wrote a batch process to pull data from a SQL data warehouse and develop custom charts for dashboard systems to alert fleet owners of potential mechanical failures."
-      ]
+      ],
+      "buzzwords": [ "C#", "WinForms", "SSRS", "T-SQL", "SQL Server", "8-bit microcontrollers", "XML", "ASP.NET MVC", "Technical writing", "Systems integration", "SOAP Web Services", "Microsoft IIS",
+      "Low Voltage Electronics Installation and Repair", "Javascript", "Windows 7 Embedded", "Real-Time Operating Systems", "C", "AWS EC2", "GPS Receivers", "Video capture and streaming", "SVN",
+      "Human-Machine Interface Design"]
     },
     {
       "company": "Delcan Technologies",
       "position": "Software Engineering Co-op",
       "website": "http://delcantechnologies.com",
+      "location": "Duluth, GA",
       "startDate": "August 2019",
       "endDate": "May 2011",
       "summary": "Participated in Georgia Tech's co-op program, designed to give students real world training through an extended internship which rotated with academic courses until at least 3 semesters of work for the company were completed.",
@@ -161,69 +165,126 @@
         "Implemented serial port protocols to allow Windows Embedded VB.NET applications to manage controller units on snowplow and salt-spreading trucks. Enhanced WinForms interface when new functionality was added and provided online and on-site technical support to customers.",
         "Wrote the user interface for a touchscreen-based VB.NET WinForms application used by Georgia DOT HERO operators for dispatch operations and converted shift paperwork and incident logs into digital reports.",
         "Wrote SSRS reports and T-SQL stored procedures to determine material usage of snowplows running our software systems to track material costs by date and location."
-      ]
+      ],
+      "buzzwords": ["VB.NET, VB 6.0", "SSRS", "T-SQL", "SQL Server", "SNMP", "C#", "WinForms", "Systems integration", "Low voltage Electronics Installation and Repair", "SVN", "8-bit microcontrollers", "Device drivers",
+      "State Machines", "NTCIP Protocol", "Sockets programming", "Requirements gathering", "Test case generation", "Microsoft Access", "Device simulation", "Serial Port Communications"]
+    },
+    {
+      "company": "Scott Simontis PC Repair",
+      "position": "Founder, Operator, Technician",
+      "website": "",
+      "location": "Alpharetta, GA",
+      "startDate": "May 2006",
+      "endDate": "August 2009",
+      "summary": "Founded my own PC Repair business, setting myself apart from bigger companies by offering in-home service and an unbeatable hourly rate for honest work. I was often called by new customers after other firms had told them their computer was beyond repair and I was almost always able to solve the issue and address pain points the client had accepted as normal. I sustained my business mainly through word-of-mouth referrals, which speaks to the dedication and focus I exhibited with each and every client.",
+      "highlights": [
+        "Responded to approximately one-hundred requests for support and successfully resolved every reported issue.",
+        "Removed malware and resolved system configuration issues with Windows computers ranging from Windows 98 to Windows 7.",
+        "Created specifications by budget level for gaming desktops and built several custom rigs for clients.",
+        "Expanded focus to include repair of general consumer electronics, including Wi-Fi setup, networking issues, A/V upgrade planning and troubleshooting of peripheral devices.",
+        "Built a static HTML website for a customer  to showcase his custom home remodeling expertise and provide a contact form for potential clients."
+      ],
+      "buzzwords": ["Windows system administration", "PC Repair", "Network Design", "Network Configuration", "Marketing", "HTML", "CSS",
+        "Wordpress", "Soldering", "Malware identification and removal"]
     }
   ],
-  "volunteer": [
+  "research": [
     {
-      "organization": "Steve's Meat Market",
-      "position": "Assistant",
-      "website": "",
-      "startDate": "1995-01-01",
-      "endDate": "1997-03-20",
-      "summary": "Ground up some sort of grasshopper mash for fishing.",
+      "organization": "Georgia Tech Vertically Integrated Projects Laboratory: Collaborative Workforce Team",
+      "position": "Undergrad researcher",
+      "website": "https://www.vip.gatech.edu/",
+      "startDate": "August 2011",
+      "endDate": "December 2011",
+      "summary": "The Collaborative Workforce project sought to discover ways that technology could improve communication in the context of distance learning programs. Given two Texas Instruments DaVinci OMAP Digital Signal Processors, our ultimate goal was to create a hardware-software solution that would allow High Definition video to be encoded for streaming in real time to create an uninterrupted, high-quality experience for online students.",
       "highlights": [
-        "Awarded a 'Helium Biscuit'"
-      ]
+        "Gathered documentation on the TI DaVinci microcontrollers donated to our program.",
+        "Studied data sheet and reference manual to gain an understanding of the device's dual-core architecture and develop a high-level plan to capture high-definition video signals.",
+        "Maintained Wiki for team and documented all our progress and discoveries for the students taking over the project next semester.",
+        "Wrote a \"Hello, World!\" program in C that used the microcontroller's ARM core and embedded Linux distribution to transmit communications over serial ports.",
+        "Researched video output capabilities of device and assisted graduate team members with coding of semester demo, which displayed a spectrogram on screen in real-time."
+      ],
+      "buzzwords": [ "C", "Digital Signal Processing", "Video Encoding", "Sockets programming", "Systems integration", "Technical writing", "Embedded Linux", "Inter-process Communication", "ARM Cortex 32-bit microcontrollers",
+      "Direct Memory Access", "Serial Port Communications", "Cross-compiling"]
     }
   ],
   "education": [
     {
-      "institution": "University of Ointment",
-      "area": "Digital Skillets",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "institution": "Georgia Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "Bachelor (incomplete)",
+      "startDate": "August 2009",
+      "endDate": "May 2013",
+      "creditsCompleted": "94",
       "courses": [
-        "DB1101 - Perpendicular Crosstalk",
-        "CS2011 - Introduction to Moisturization"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Warble Pioneer Award",
-      "date": "2001-11-01",
-      "awarder": "Levi Goulet",
-      "summary": "Have you seen my turtle?"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Radio Julius",
-      "publisher": "Tanyo Lubbock",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.rhy.es",
-      "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Audio Juggling",
-      "level": "Master",
-      "keywords": [
-        "Ointment",
-        "Voltor",
-        "Millipedes"
+        "Introduction to Object-Oriented Programming",
+        "Data Structures and Algorithms",
+        "Introduction to Database Systems",
+        "Advanced Operating Systems",
+        "Computer and Network Security",
+        "Computer Organization and Programming",
+        "Computer Systems and Network",
+        "Objects and Design",
+        "Computer Networking I"
       ]
     },
     {
-      "name": "Bruschotti",
-      "level": "Satisfactory",
-      "keywords": [
-        "Snow camp",
-        "Owl"
+      "institution": "Georgia EMS Academy",
+      "area": "Emergency Medical Technician Training Course",
+      "studyType": "Technical School Certificate",
+      "startDate": "September 2013",
+      "endDate": "November 2013",
+      "gpa": 4.0,
+      "courses": [
+        "American Heart Association: Basic Life Support for Healthcare Providers",
+        "NREMT-approved curriculum for Emergency Medical Technician (Basic)",
+        "48 hours of clinical experiences with South Fulton EMS in East Point, GA."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Sitecore 8 Professional Developer",
+      "url": "https://elearning.sitecore.net/public/ContentDetails.aspx?id=ADA90A1B1DDD4CAF848234763A00135B",
+      "earnedOn": "March 2015",
+      "expiredOn": ""
+    },
+    {
+      "name": "Microsoft 70-480: Programming in HTML5 with JavaScript and CSS3",
+      "url": "https://www.microsoft.com/en-us/learning/exam-70-480.aspx",
+      "earnedOn": "January 2014",
+      "expiredOn": ""
+    },
+    {
+      "name": "National Registry of Emergency Medical Technicians: Emergency Medical Technician",
+      "url": "https://www.nremt.org/rwd/public/document/emt",
+      "earnedOn": "December 2014",
+      "expiredOn": "July 2017"
+    }
+  ],
+  "openSourceContributions": [
+    {
+      "project": "Radio Julius",
+      "url": "Tanyo Lubbock",
+      "startDate": "date",
+      "endDate": "date",
+      "description": "2014-10-01",
+      "roleSummary": "https://en.rhy.es",
+      "highlights": [],
+      "buzzwords": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Audio Juggling",
+      "url": "Master",
+      "startDate": "date",
+      "endDate": "date",
+      "description": "str",
+      "highlights": [],
+      "buzzwords": [
+        "Ointment",
+        "Voltor",
+        "Millipedes"
       ]
     }
   ],
@@ -236,16 +297,10 @@
   "interests": [
     {
       "name": "The Information Superhighway",
-      "keywords": [
+      "buzzwords": [
         "Ferrets",
         "Unicorns"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": " Nannette Nananacci",
-      "reference": "It is my pleasure to recommend Dugan Nash, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
     }
   ]
 }

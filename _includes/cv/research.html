@@ -1,0 +1,54 @@
+{% if cv.research %}
+  <div id="research" class="entry">
+    <header class="entry-header">
+      <h3 class="entry-title">Academic Research</h3>
+    </header>
+  </div>
+
+<div class="entry-content">
+  {% for r in cv.research %}
+    {% if r.organization %}
+      <h3 class="name">
+        {% if r.url %}
+          <a href="{{ r.url }}">
+        {% endif %}
+            {{ r.organization }}
+        {% if r.url %}
+          </a>
+        {% endif %}
+      </h3>
+
+  {% if r.position %}
+    <h4 class="position">{{ r.position }}</h4>
+  {% endif %}
+
+  <div class="date">
+    {% if r.startDate %}
+      <span class="startDate">{{ r.startDate }}</span>
+    {% endif %}
+    {% if r.endDate == '' %}
+      <span class="endDate">{{ site.data.theme.t.present | default: 'Present' | prepend: ' &mdash; ' }}</span>
+    {% else %}
+      <span class="endDate">{{ r.endDate | prepend: ' &mdash; ' }}</span>
+    {% endif %}
+  </div>
+
+  {% if r.summary %}
+    <div class="summary">
+      <p>{{ r.summary }}</p>
+    </div>
+  {% endif %}
+
+  {% if r.highlights %}
+    <ul class="highlights">
+      {% for highlight in r.highlights %}
+        <li>{{ highlight }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% endif %}

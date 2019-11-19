@@ -1,0 +1,49 @@
+{% if cv.openSourceContributions %}
+<div id="opensource" class="entry">
+  <header class="entry-header">
+    <h3 class="entry-title">Open Source Contributions</h3>
+  </header>
+
+  <div class="entry-content">
+    {% for osc in cv.openSourceContributions %}
+      {% if osc.project %}
+        {% if osc.url %}
+          <a href="{{ osc.url }}">
+        {% endif %}
+        <h4 class="contribution">{{ osc.project }}</h4>
+        {% if osc.url %}
+          </a>
+        {% endif %}
+
+        <div class="date">
+          {% if osc.startDate %}
+            <span class="startDate">{{ osc.startDate }}</span>
+          {% endif %}
+          {% if osc.endDate == '' %}
+            <span class="endDate">{{ site.data.theme.t.present | default: Present | prepend: ' &mdash; ' }} </span>
+          {% else %}
+            <span class="endDate">{{ osd.endDate | prepend: ' &mdash; ' }}</span>
+          {% endif %}
+        </div>
+
+      <div class="summary">
+        {% if osc.description %}
+          <p>{{osc.description }}</p>
+        {% endif %}
+        {% if osc.roleSummary %}
+          <p>{{ osc.roleSummary }}</p>
+        {% endif %}
+      </div>
+
+      {% if osc.highlights %}
+        <ul class="highlights">
+          {% for highlight in osc.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

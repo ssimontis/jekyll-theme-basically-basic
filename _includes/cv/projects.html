@@ -1,0 +1,47 @@
+{% if cv.projects %}
+<header class="entry-header">
+  <h3 class="entry-title">Personal Projects</h3>
+</header>
+
+<div class="entry-content">
+  {% for p in cv.projects %}
+    {% if p.name %}
+    <h4 class="contribution">
+      {% if p.url %}
+        <a href="{{ p.url }}">
+      {% endif %}
+          {{ p.name }}
+      {% if p.url %}
+        </a>
+      {% endif %}
+    </h4>
+
+  <div class="date">
+    {% if p.startDate %}
+      <span class="startDate">{{ p.startDate }}</span>
+    {% endif %}
+    {% if p.endDate == '' %}
+      <span class="endDate">{{ site.data.theme.t.present | default: Present | prepend: ' &mdash; ' }}</span>
+    {% else %}
+      <span class="endDate">{{ p.endDate | prepend: ' &mdash; ' }}</span>
+    {% endif %}
+  </div>
+
+  <div class="summary">
+    {% if p.description %}
+      <p>{{ p.description }}</p>
+    {% endif %}
+  </div>
+
+  {% if p.highlights %}
+    <ul class="highlights">
+      {% for highlight in p.highlights %}
+        <li>{{ highlight }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

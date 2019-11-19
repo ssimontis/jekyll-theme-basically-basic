@@ -1,0 +1,36 @@
+{% if cv.certifications %}
+<div id="certifications" class="entry">
+  <header class="entry-header">
+    <h3 class="entry-title">Certifications</h3>
+  </header>
+</div>
+
+<div class="entry-content">
+  {% for c in cv.certifications %}
+  {% if c.name %}
+  <h4 class="cert">
+    {% if c.url %}
+      <a href="{{ c.url }}">
+    {% endif %}}
+      {{ c.name }}
+      {% if c.url %}
+        </a>
+      {% endif %}
+  </h4>
+
+  <div class="date">
+    {% if c.earnedOn %}
+      <span class="startDate">{{ c.earnedOn }}</span>
+    {% endif %}
+    {% if c.expiresOn == '' %}
+      <span class="endDate">{{ site.data.theme.t.present | default: Present | prepend: ' &mdash; ' }} </span>
+    {% else %}
+      <span class="endDate">{{ c.expiresOn | prepend: ' &mdash; ' }}</span>
+    {% endif %}
+  </div>
+
+
+  {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
