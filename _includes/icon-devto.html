@@ -1,0 +1,4 @@
+<a href="https://dev.to/{{ include.username }}">
+  <svg class="icon icon-dev"><use href="{{ '/assets/SVG/symbol-defs.svg' | relative-path | append '#icon-dev' }}"></use></svg>
+  <span class="label">{{ include.label | default: include.username }}</span>
+</a>

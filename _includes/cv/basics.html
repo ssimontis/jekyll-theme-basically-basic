@@ -14,7 +14,7 @@
       <div class="email"><strong>Email</strong> <a href="mailto:{{ cv.basics.email }}">{{ cv.basics.email }}</a></div>
     {% endif %}
     {% if cv.basics.phone %}
-      <div class="phone"><strong>Phone</strong> {{ cv.basics.phone }}</div>
+      <div class="phone"><strong>Phone</strong> <a href="tel:{{ cv.basics.phone }}">{{ cv.basics.phone }}</a></div>
     {% endif %}
     {% if cv.basics.website %}
       <div class="website"><strong>Website</strong> <a href="{{ cv.basics.website }}">{{ cv.basics.website }}</a></div>
@@ -48,20 +48,11 @@
 
     <div class="entry-content">
       <address>
-        {% if cv.basics.location.address %}
-          <span class="address">{{ cv.basics.location.address }}</span><br />
-        {% endif %}
         {% if cv.basics.location.city %}
           <span class="city">{{ cv.basics.location.city | append: ', ' }}</span>
         {% endif %}
         {% if cv.basics.location.region %}
           <span class="region">{{ cv.basics.location.region | append: ' ' }}</span>
-        {% endif %}
-        {% if cv.basics.location.postalCode %}
-          <span class="postalCode">{{ cv.basics.location.postalCode | append: ' ' }}</span>
-        {% endif %}
-        {% if cv.basics.location.countryCode %}
-          <span class="countryCode">{{ cv.basics.location.countryCode }}</span>
         {% endif %}
       </address>
     </div>

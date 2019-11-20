@@ -3,11 +3,12 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-    gem 'searchyll'
-    gem 'jekyll-feed'
-    gem 'jekyll-tagging'
-    gem 'jekyll-asciidoc'
-    gem 'jekyll-seo-tag'
+  gem 'jekyll', '~> 4.0.0'
+  gem 'jekyll-asciidoc'
+  gem 'jekyll-feed'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-tagging'
+  gem 'searchyll'
 end
 
 group :testing do

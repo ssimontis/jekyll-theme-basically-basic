@@ -1,0 +1,15 @@
+@mixin btn-outline(
+  $color,
+  $bgcolor: #fff
+) {
+  background-color: $bgcolor;
+  border-color: $color;
+  color: $color;
+  transition: background-color 1s ease-out;
+
+  &:hover {
+    color: $bgcolor;
+    background-color: $color;
+    transition: background-color 1s ease-out;
+  }
+}

@@ -8,29 +8,28 @@
  * https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
 */
 
-var menuItems = document.querySelectorAll('#sidebar li');
+const menuItems = document.querySelectorAll('#sidebar li');
 
 // Get vendor transition property
-var docElemStyle = document.documentElement.style;
-var transitionProp = typeof docElemStyle.transition == 'string' ?
+const docElemStyle = document.documentElement.style;
+const transitionProp = typeof docElemStyle.transition == 'string' ?
   'transition' : 'WebkitTransition';
 
 // Animate sidebar menu items
 function animateMenuItems() {
-  for (var i = 0; i < menuItems.length; i++) {
-    var item = menuItems[i];
+  for (let i = 0; i < menuItems.length; i++) {
+    const item = menuItems[i];
     // Stagger transition with transitionDelay
     item.style[transitionProp + 'Delay'] = (i * 75) + 'ms';
     item.classList.toggle('is--moved');
   }
-};
-
-var myWrapper = document.querySelector('.wrapper');
-var myMenu = document.querySelector('.sidebar');
-var myToggle = document.querySelector('.toggle');
-var myInitialContent = document.querySelector('.initial-content');
-var mySearchContent = document.querySelector('.search-content');
-var mySearchToggle = document.querySelector('.search-toggle');
+}
+const myWrapper = document.querySelector('.wrapper');
+const myMenu = document.querySelector('.sidebar');
+const myToggle = document.querySelector('.toggle');
+const myInitialContent = document.querySelector('.initial-content');
+const mySearchContent = document.querySelector('.search-content');
+const mySearchToggle = document.querySelector('.search-toggle');
 
 // Toggle sidebar visibility
 function toggleClassMenu() {

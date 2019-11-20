@@ -31,3 +31,11 @@
     @error "Detected mixed units. Please use the same units for all parameters. " + $u1 +", " + $u2 + ", " + $u3 +", "+ $u4;
   }
 }
+
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
+
+@function cp($target, $container) {
+  @return calc-percent($target, $container);
+}

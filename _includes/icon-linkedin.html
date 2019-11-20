@@ -1,4 +1,4 @@
 <a href="https://www.linkedin.com/in/{{ include.username }}">
-  <span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span>
+  <svg class="icon icon-linkedin"><use href="{{ '/assets/SVG/symbol-defs.svg' | relative-path | append '#icon-linkedin' }}"></use></svg>
   <span class="label">{{ include.label | default: include.username }}</span>
 </a>

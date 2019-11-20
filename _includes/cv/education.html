@@ -20,7 +20,12 @@
           {% endif %}
         </div>
         {% if e.area %}
-          <div class="area"><strong>{{ e.area }}{% if e.studyType %}<span class="studyType">{{ e.studyType | prepend: ', ' }}</span>{% endif %}</strong>{% if e.creditsCompleted %}<span class="gpa">{{ e.creditsCompleted | prepend: ' (' | append: ' credit hours completed)' }}</span>{% endif %}</div>
+          <div class="area"><strong>{{ e.area }}{% if e.studyType %}<span class="studyType">{{ e.studyType | prepend: ', ' }}</span>{% endif %}</strong>
+            {% if e.creditsCompleted %}
+            <span class="gpa">{{ e.creditsCompleted | prepend: ' (' | append: ' credit hours completed)' }}</span>
+            {% elsif e.gpa %}
+            <span class="gpa">{{ e.gpa | prepend: ' (' | append: ' credit hours completed)' }}</span>
+            {% endif %}</div>
         {% endif %}
         {% if e.courses %}
           <h5 class="courses-title">Courses</h5>

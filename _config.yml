@@ -21,9 +21,7 @@ baseurl: # the optional subpath of your site, e.g. "/blog"
 url: https://blog.scottsimontis.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Scott Simontis
-  twitter:
   picture: assets/images/profile.png
-twitter_username:
 github_username: ssimontis
 linkedin_username: scottsimontis
 stackoverflow_username: ssimontis

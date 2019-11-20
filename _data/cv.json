@@ -2,16 +2,12 @@
   "basics": {
     "name": "Scott Simontis",
     "label": "Versatile cross-platform backend developer",
-    "picture": "",
     "email": "yo@scottsimontis.io",
     "phone": "+1(470) 279-1230",
     "website": "https://blog.scottsimontis.io/",
     "summary": "Well-rounded backend developer with a background in .NET and a recent focus on cloud technologies and DevOps.",
     "location": {
-      "address": "116 Ponce de Leon Ave NE # 2216",
-      "postalCode": "30308",
       "city": "Atlanta",
-      "countryCode": "US",
       "region": "Georgia"
     },
     "profiles": [
