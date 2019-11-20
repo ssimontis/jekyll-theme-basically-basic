@@ -1,0 +1,50 @@
+{
+  "name": "scottsimontis-blog",
+  "version": "1.0.0",
+  "description": "Build tasks for my blog",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssimontis/jekyll-theme-basically-basic.git"
+  },
+  "author": "Scott Simontis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssimontis/jekyll-theme-basically-basic/issues"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "homepage": "https://github.com/ssimontis/jekyll-theme-basically-basic#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "autoprefixer": "^9.7.2",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-prettier": "^2.3.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^10.0.0",
+    "gulp-uglify": "^3.0.2",
+    "make-dir": "^3.0.0",
+    "merge-stream": "^2.0.0",
+    "node-sass": "^4.13.0",
+    "stylelint": "^12.0.0"
+  }
+}

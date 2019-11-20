@@ -1,49 +1,49 @@
-{% if cv.openSourceContributions %}
+{%- if cv.openSourceContributions -%}
 <div id="opensource" class="entry">
   <header class="entry-header">
     <h3 class="entry-title">Open Source Contributions</h3>
   </header>
 
   <div class="entry-content">
-    {% for osc in cv.openSourceContributions %}
-      {% if osc.project %}
-        {% if osc.url %}
+    {%- for osc in cv.openSourceContributions -%}
+      {%- if osc.project -%}
+        {%- if osc.url -%}
           <a href="{{ osc.url }}">
-        {% endif %}
+        {%- endif -%}
         <h4 class="contribution">{{ osc.project }}</h4>
-        {% if osc.url %}
+        {%- if osc.url -%}
           </a>
-        {% endif %}
+        {%- endif -%}
 
         <div class="date">
-          {% if osc.startDate %}
+          {%- if osc.startDate -%}
             <span class="startDate">{{ osc.startDate }}</span>
-          {% endif %}
-          {% if osc.endDate == '' %}
+          {%- endif -%}
+          {%- if osc.endDate == '' -%}
             <span class="endDate">{{ site.data.theme.t.present | default: Present | prepend: ' &mdash; ' }} </span>
-          {% else %}
+          {%- else -%}
             <span class="endDate">{{ osd.endDate | prepend: ' &mdash; ' }}</span>
-          {% endif %}
+          {%- endif -%}
         </div>
 
       <div class="summary">
-        {% if osc.description %}
+        {%- if osc.description -%}
           <p>{{osc.description }}</p>
-        {% endif %}
-        {% if osc.roleSummary %}
+        {%- endif %}
+        {%- if osc.roleSummary -%}
           <p>{{ osc.roleSummary }}</p>
-        {% endif %}
+        {%- endif -%}
       </div>
 
-      {% if osc.highlights %}
+      {%- if osc.highlights -%}
         <ul class="highlights">
-          {% for highlight in osc.highlights %}
+          {%- for highlight in osc.highlights -%}
             <li>{{ highlight }}</li>
-          {% endfor %}
+          {%- endfor -%}
         </ul>
-      {% endif %}
-    {% endif %}
-    {% endfor %}
+      {%- endif -%}
+    {%- endif -%}
+    {%- endfor -%}
   </div>
 </div>
-{% endif %}
+{%- endif -%}

@@ -59,6 +59,8 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.1)
+    rainbow (2.2.2)
+      rake
     rake (13.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
@@ -78,8 +80,12 @@ GEM
       rspec-support (~> 3.9.0)
     rspec-support (3.9.0)
     safe_yaml (1.0.5)
+    sass (3.4.25)
     sassc (2.2.1-x64-mingw32)
       ffi (~> 1.9)
+    scss-lint (0.38.0)
+      rainbow (~> 2.0)
+      sass (~> 3.4.1)
     searchyll (0.10.2)
       jekyll (>= 3.0)
       nokogiri
@@ -98,6 +104,7 @@ DEPENDENCIES
   jekyll-tagging
   rake
   rspec
+  scss-lint
   searchyll
 
 BUNDLED WITH

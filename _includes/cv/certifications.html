@@ -1,4 +1,4 @@
-{% if cv.certifications %}
+{%- if cv.certifications -%}
 <div id="certifications" class="entry">
   <header class="entry-header">
     <h3 class="entry-title">Certifications</h3>
@@ -6,31 +6,31 @@
 </div>
 
 <div class="entry-content">
-  {% for c in cv.certifications %}
-  {% if c.name %}
+  {%- for c in cv.certifications -%}
+  {%- if c.name -%}
   <h4 class="cert">
-    {% if c.url %}
+    {%- if c.url -%}
       <a href="{{ c.url }}">
-    {% endif %}}
+    {%- endif -%}}
       {{ c.name }}
-      {% if c.url %}
+      {%- if c.url -%}
         </a>
-      {% endif %}
+      {%- endif -%}
   </h4>
 
   <div class="date">
-    {% if c.earnedOn %}
+    {%- if c.earnedOn -%}
       <span class="startDate">{{ c.earnedOn }}</span>
-    {% endif %}
-    {% if c.expiresOn == '' %}
+    {%- endif -%}
+    {%- if c.expiresOn == '' -%}
       <span class="endDate">{{ site.data.theme.t.present | default: Present | prepend: ' &mdash; ' }} </span>
-    {% else %}
+    {%- else -%}
       <span class="endDate">{{ c.expiresOn | prepend: ' &mdash; ' }}</span>
-    {% endif %}
+    {%- endif -%}
   </div>
 
 
-  {% endif %}
-  {% endfor %}
+  {%- endif -%}
+  {%- endfor -%}
 </div>
-{% endif %}
+{%- endif -%}

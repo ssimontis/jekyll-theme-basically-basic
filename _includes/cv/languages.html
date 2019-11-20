@@ -5,16 +5,16 @@
     </header>
 
     <div class="entry-content">
-      {% for l in cv.languages %}
-        {% if l.language %}
+      {%- for l in cv.languages -%}
+        {%- if l.language -%}
           <h4 class="language">{{ l.language }}</h4>
-        {% endif %}
-        {% if l.fluency %}
+        {%- endif -%}
+        {%- if l.fluency -%}
           <div class="fluency">
             <em>{{ l.fluency }}</em>
           </div>
-        {% endif %}
-      {% endfor %}
+        {%- endif -%}
+      {%- endfor -%}
     </div>
   </div>
 {% endif %}

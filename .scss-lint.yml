@@ -24,7 +24,7 @@ linters:
     max_elements: 1
 
   BorderZero:
-    enabled: false
+    enabled: true
     convention: zero # or `none`
 
   ChainedClasses:
@@ -34,7 +34,7 @@ linters:
     enabled: true
 
   ColorVariable:
-    enabled: false
+    enabled: true
 
   Comment:
     enabled: false
@@ -112,7 +112,7 @@ linters:
     convention: hyphenated_lowercase # or 'camel_case', or 'snake_case', or a regex pattern
 
   NestingDepth:
-    enabled: false
+    enabled: true
     max_depth: 3
     ignore_parent_selectors: false
 
@@ -163,7 +163,7 @@ linters:
     allow_element_with_id: false
 
   SelectorDepth:
-    enabled: false
+    enabled: true
     max_depth: 3
 
   SelectorFormat:
@@ -228,10 +228,10 @@ linters:
     enabled: true
 
   TrailingZero:
-    enabled: false
+    enabled: true
 
   TransitionAll:
-    enabled: false
+    enabled: true
 
   UnnecessaryMantissa:
     enabled: true

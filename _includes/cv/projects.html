@@ -1,47 +1,47 @@
-{% if cv.projects %}
+{%- if cv.projects -%}
 <header class="entry-header">
   <h3 class="entry-title">Personal Projects</h3>
 </header>
 
 <div class="entry-content">
-  {% for p in cv.projects %}
-    {% if p.name %}
+  {%- for p in cv.projects -%}
+    {%- if p.name -%}
     <h4 class="contribution">
-      {% if p.url %}
+      {%- if p.url -%}
         <a href="{{ p.url }}">
-      {% endif %}
+      {%- endif -%}
           {{ p.name }}
-      {% if p.url %}
+      {%- if p.url -%}
         </a>
-      {% endif %}
+      {%- endif -%}
     </h4>
 
   <div class="date">
-    {% if p.startDate %}
+    {%- if p.startDate -%}
       <span class="startDate">{{ p.startDate }}</span>
-    {% endif %}
-    {% if p.endDate == '' %}
+    {%- endif -%}
+    {%- if p.endDate == '' -%}
       <span class="endDate">{{ site.data.theme.t.present | default: Present | prepend: ' &mdash; ' }}</span>
-    {% else %}
+    {%- else -%}
       <span class="endDate">{{ p.endDate | prepend: ' &mdash; ' }}</span>
-    {% endif %}
+    {%- endif -%}
   </div>
 
   <div class="summary">
-    {% if p.description %}
+    {%- if p.description -%}
       <p>{{ p.description }}</p>
-    {% endif %}
+    {%- endif -%}
   </div>
 
-  {% if p.highlights %}
+  {%- if p.highlights -%}
     <ul class="highlights">
-      {% for highlight in p.highlights %}
+      {%- for highlight in p.highlights -%}
         <li>{{ highlight }}</li>
-      {% endfor %}
+      {%- endfor -%}
     </ul>
-  {% endif %}
+  {%- endif -%}
 
-  {% endif %}
-  {% endfor %}
+  {%- endif -%}
+  {%- endfor -%}
 </div>
-{% endif %}
+{%- endif -%}

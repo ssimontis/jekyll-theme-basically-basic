@@ -1,9 +1,5 @@
-{% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-{% endif %}
-
 <script async src="{{ '/assets/javascripts/main.js' | relative_url }}"></script>
-<script src="{{ 'assets/javascripts/svgxuse.js' | relative_url }}"></script>
+<script src="{{ '/assets/javascripts/svgxuse.js' | relative_url }}"></script>
 
 {% if site.search %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
@@ -13,4 +9,20 @@
     {%- when "algolia" -%}
       {% include search/algolia-search-scripts.html %}
   {%- endcase -%}
+{% endif %}
+{% if jekyll.environment == 'production' %}
+<!-- Ticksel v1.0 -->
+<script type="text/javascript">
+    var _tcfg = _tcfg || [];
+    (function() {
+        _tcfg.push(["tags", ""]);
+        var u="https://cdn.ticksel.com/js/analytics_v1.0.js"; _tcfg.push(["account_id", 7474159]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+        g.type="text/javascript"; g.async=true; g.src=u; g.setAttribute("crossorigin", "anonymous");
+        g.setAttribute("integrity", "sha256-7grd8jMivCG0iCcJ7m/Ny4gvWb0mPVpFhRQovLkaUl8=");
+        s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><img src="https://beacon.ticksel.com/beam?account_id=7474159&referrer=&tags=" style="border:0;" width="0" height="0" alt="" /></noscript>
+<!-- End Ticksel Code -->
 {% endif %}

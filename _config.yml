@@ -16,7 +16,7 @@
 lang: en-US
 title: Fragile Development
 email: yo@scottsimontis.io
-description: The adventures of a developer in search of meaning, monads, and new opportunities.
+description: The adventures of a developer in search of meaning, monads, and new opportunities. Join me along the journey into the clouds, with plenty of embedded devices, esoteric languages, and hard lessons learned along the way!
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: https://blog.scottsimontis.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
@@ -48,8 +48,7 @@ plugins: # previsously gems
   - jekyll-tagging
   - jekyll-asciidoc
   - jekyll-seo-tag
-feed:
-  path: atom.xml
+
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 7
@@ -88,3 +87,17 @@ defaults:
     values:
       layout: post
       read_time: true
+
+# SEO settings
+social:
+  name: Scott Simontis
+  links:
+    - https://www.linkedin.com/in/ssimontis
+    - https://www.facebook.com/scott.simontis
+    - https://dev.to/ssimontis
+    - https://stackoverflow.com/users/879429/scott-simontis
+    - https://github.com/ssimontis
+
+# Feed setup
+feed:
+  excerpt_only: true
