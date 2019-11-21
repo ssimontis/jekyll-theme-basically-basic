@@ -6,10 +6,7 @@
     "phone": "+1(470) 279-1230",
     "website": "https://blog.scottsimontis.io/",
     "summary": "Well-rounded backend developer with a background in .NET and a recent focus on cloud technologies and DevOps.",
-    "location": {
-      "city": "Atlanta",
-      "region": "Georgia"
-    },
+    "location": "Atlanta, GA",
     "profiles": [
       {
         "network": "Github",

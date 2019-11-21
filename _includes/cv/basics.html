@@ -48,12 +48,7 @@
 
     <div class="entry-content">
       <address>
-        {%- if cv.basics.location.city -%}
-          <span class="city">{{ cv.basics.location.city | append: ', ' }}</span>
-        {%- endif -%}
-        {%- if cv.basics.location.region -%}
-          <span class="region">{{ cv.basics.location.region | append: ' ' }}</span>
-        {%- endif -%}
+        {{ cv.basics.location }}
       </address>
     </div>
   </div>
